@@ -113,4 +113,38 @@ input :focus {
         margin-top: 50%;
         margin-left: 15%;
     }
+    .login-design {
+        min-height: auto;
+        width: 50%;
+        top: 50px;
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .login-design {
+        min-height: auto;
+        width: 50%;
+        max-width: 50%;
+    }
+    .form {
+        width: auto;
+        margin-left: 0 5%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .login-design {
+        min-height: auto;
+        width: 30%;
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .login-design {
+        min-height: auto;
+        width: 30%;
+        max-width: 50%;
+    }
 }
